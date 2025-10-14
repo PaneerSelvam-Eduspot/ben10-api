@@ -1,6 +1,6 @@
-# Ben 10 Aliens API (ben10-api) 👾
+## Ben 10 Aliens API (ben10-api) 👾
 
-##🎯 Project Overview
+#🎯 Project Overview
 
 The Ben 10 Aliens API is a robust, production-ready RESTful service built to manage data for all major aliens featured in the Ben 10 universe.
 
