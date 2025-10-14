@@ -10,19 +10,24 @@ const router = express.Router();
 router.get('/', async ( req, res) => {
     try{
         
-        let seriesName ="";
-       
-        if (req.baseUrl.includes("classic")) seriesName = "Ben 10 Classic";
-        else if (req.baseUrl.includes("alien-force")) seriesName = "Alien Force";
-        else if (req.baseUrl.includes("ultimate-alien")) seriesName = "Ultimate Alien";
+        const seriesParam = req.params.series; 
+        let seriesName = "";
+        
+        
+        if (seriesParam === "classic") seriesName = "Ben 10 Classic";
+        else if (seriesParam === "alien-force") seriesName = "Alien Force";
+        else if (seriesParam === "ultimate-alien") seriesName = "Ultimate Alien";
+        
+        if (!seriesName) {
+            return res.status(404).json({ message: "Invalid series specified in the URL." });
+        }
 
         const aliens = await Alien.find({ series: seriesName });
         res.status(200).json(aliens);
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
-}); 
-
+});
 
 router.post('/', createAliens); 
 

@@ -15,9 +15,7 @@ await connectDB();
 app.use(cors());
 app.use(bodyParser.json());
 
-app.use('/classic', aliensRouter);
-app.use('/alien-force', aliensRouter);
-app.use('/ultimate-alien', aliensRouter);
+app.use('/:series', aliensRouter); 
 
 
 app.get('/', (req,res) =>{ 
