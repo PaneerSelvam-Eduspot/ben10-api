@@ -1,10 +1,13 @@
 Ben 10 Aliens API (ben10-api) 👾
+
 🎯 Project Overview
+
 The Ben 10 Aliens API is a robust, production-ready RESTful service built to manage data for all major aliens featured in the Ben 10 universe.
 
 This project was developed as a comprehensive demonstration of full-stack API development, emphasizing clean architecture, database integration, and modern asynchronous handling in a Node.js environment.
 
 ✨ Key Features & Functionality
+
 This API is fully functional and supports standard CRUD operations (Create, Read, Update, Delete) on the alien database.
 
 RESTful Design: Implements clean, predictable resource-based routes (/api/v1/aliens).
