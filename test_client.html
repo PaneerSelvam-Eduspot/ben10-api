@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ben 10 API Local Test Client</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background-color: #f4f4f4; }
+        h1 { color: #008000; }
+        h2 { border-bottom: 2px solid #ccc; padding-bottom: 5px; color: #333; }
+        .alien-card { 
+            border: 1px solid #ddd; 
+            padding: 15px; 
+            margin-bottom: 10px; 
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+        }
+        #results div { margin-top: 20px; }
+        .loading { color: orange; }
+        .error { color: red; font-weight: bold; }
+        .series-count { font-style: italic; color: #666; }
+    </style>
+</head>
+<body>
+    <h1>👽 Ben 10 API Local Test Client 🧪</h1>
+    <p>This page uses JavaScript to fetch data from your running API server at <code>http://localhost:5000</code>.</p>
+    <button onclick="fetchAllAliens()">Fetch All Series Data</button>
+    <hr>
+    <div id="results">
+        <div id="classic-results"><h2>Ben 10 Classic (Test: /classic)</h2><p class="loading">Loading...</p></div>
+        <div id="alien-force-results"><h2>Alien Force (Test: /alien-force)</h2><p class="loading">Loading...</p></div>
+        <div id="ultimate-alien-results"><h2>Ultimate Alien (Test: /ultimate-alien)</h2><p class="loading">Loading...</p></div>
+    </div>
+
+    <script>
+        const API_BASE_URL = 'http://localhost:5000';
+
+        // Function to fetch data from a specific endpoint
+        async function fetchData(endpoint, resultElementId) {
+            const resultsDiv = document.getElementById(resultElementId);
+            resultsDiv.innerHTML = `<h2>${resultsDiv.querySelector('h2').textContent}</h2><p class="loading">Fetching data from ${endpoint}...</p>`;
+            
+            try {
+                const response = await fetch(`${API_BASE_URL}${endpoint}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                const aliens = await response.json();
+                
+                // Clear loading state and display results
+                let html = `<h2>${resultsDiv.querySelector('h2').textContent}</h2>`;
+                html += `<p class="series-count">Total Aliens Found: ${aliens.length}</p>`;
+
+                if (aliens.length > 0) {
+                    aliens.forEach(alien => {
+                        html += `
+                            <div class="alien-card">
+                                <strong>${alien.name}</strong> (${alien.species})<br>
+                                Abilities: ${alien.abilities}<br>
+                                Planet: ${alien.planet}<br>
+                                <img src="${alien.image}" alt="${alien.name}" style="width: 100px; height: auto; margin-top: 5px;">
+                            </div>
+                        `;
+                    });
+                } else {
+                    html += '<p>No aliens found for this series.</p>';
+                }
+                
+                resultsDiv.innerHTML = html;
+
+            } catch (error) {
+                resultsDiv.innerHTML = `<h2>${resultsDiv.querySelector('h2').textContent}</h2><p class="error">Error connecting to API or fetching data: ${error.message}. Is your server running?</p>`;
+                console.error('Fetch error:', error);
+            }
+        }
+
+        // Master function to fetch all data when the button is clicked or page loads
+        function fetchAllAliens() {
+            // Test the three main series endpoints
+            fetchData('/classic', 'classic-results');
+            fetchData('/alien-force', 'alien-force-results');
+            fetchData('/ultimate-alien', 'ultimate-alien-results');
+            
+            // Optional: You can also test your search route here, e.g.:
+            // fetchData('/classic/search?query=fire', 'search-test-results');
+        }
+
+        // Fetch data immediately when the page loads
+        document.addEventListener('DOMContentLoaded', fetchAllAliens);
+    </script>
+</body>
+</html>

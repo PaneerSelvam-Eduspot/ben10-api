@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Heatblast",
+    "species": "Pyronite",
+    "planet": "Pyros",
+    "abilities": "Fire generation, fire manipulation, heat absorption, flight",
+    "image": "https://static.wikia.nocookie.net/ben10/images/7/70/Heatblast_os.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "And Then There Were 10"
+  },
+  {
+    "name": "Wildmutt",
+    "species": "Vulpimancer",
+    "planet": "Vulpin",
+    "abilities": "Enhanced senses, speed, agility, biting",
+    "image": "https://static.wikia.nocookie.net/ben10/images/9/9a/Wildmutt_OS_Omnitrix_side.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "And Then There Were 10"
+  },
+  {
+    "name": "Diamondhead",
+    "species": "Petrosapien",
+    "planet": "Petropia",
+    "abilities": "Crystal generation, super durability, melee constructs",
+    "image": "https://static.wikia.nocookie.net/ben10/images/a/ab/Diamondhead_os.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Permanent Retirement"
+  },
+  {
+    "name": "XLR8",
+    "species": "Kineceleran",
+    "planet": "Kinet",
+    "abilities": "Super speed, rapid reflexes, vortex generation",
+    "image": "https://static.wikia.nocookie.net/ben10/images/8/85/XLR8.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Washington, D.C."
+  },
+  {
+    "name": "Grey Matter",
+    "species": "Galvan",
+    "planet": "Galvan Prime",
+    "abilities": "Genius-level intellect, stealth, wall climbing",
+    "image": "https://static.wikia.nocookie.net/ben10/images/1/1d/Grey_matter_profile.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Washington, D.C."
+  },
+  {
+    "name": "Four Arms",
+    "species": "Tetramand",
+    "planet": "Khoros",
+    "abilities": "Super strength, shockwave clap, durability",
+    "image": "https://static.wikia.nocookie.net/ben10/images/d/d0/Four_arms_os_render.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Washington, D.C."
+  },
+  {
+    "name": "Stinkfly",
+    "species": "Lepidopterran",
+    "planet": "Varies",
+    "abilities": "Flight, acidic sprays, sticky nets",
+    "image": "https://static.wikia.nocookie.net/ben10/images/4/4d/Stinkfly_os_render.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Washington, D.C."
+  },
+  {
+    "name": "Ripjaws",
+    "species": "Piscciss Volann",
+    "planet": "Piscciss",
+    "abilities": "Underwater breathing, powerful jaws, swimming",
+    "image": "https://static.wikia.nocookie.net/ben10fanbase/images/7/77/Ripjaws_HT.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Washington, D.C."
+  },
+  {
+    "name": "Upgrade",
+    "species": "Galvanic Mechamorph",
+    "planet": "Galvan B",
+    "abilities": "Merge with machinery, tech upgrade, shapeshifting metallic forms",
+    "image": "https://static.wikia.nocookie.net/ben10/images/6/62/Upgrade_Model.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Washington, D.C."
+  },
+  {
+    "name": "Ghostfreak",
+    "species": "Ectonurite",
+    "planet": "Anur Phaetos",
+    "abilities": "Intangibility, invisibility, possession",
+    "image": "https://static.wikia.nocookie.net/ben10/images/a/a3/GhostfreakPose2.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Washington, D.C."
+  },
+  {
+    "name": "Cannonbolt",
+    "species": "Arburian Pelarota",
+    "planet": "Arburia",
+    "abilities": "Roll into armored ball, high-impact tackles, durability",
+    "image": "https://static.wikia.nocookie.net/ben10/images/1/15/Cannonbolt.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Permanent Retirement"
+  },
+  {
+    "name": "Wildvine",
+    "species": "Florauna",
+    "planet": "Florauna",
+    "abilities": "Plant control, regeneration, entangling vines",
+    "image": "https://static.wikia.nocookie.net/ben10/images/6/61/Wildvine_Flors_Verdance.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Permanent Retirement"
+  },
+  {
+    "name": "Snare-oh",
+    "species": "Snake-like humanoid",
+    "planet": "Varies",
+    "abilities": "Trapping, constriction, venom",
+    "image": "https://static.wikia.nocookie.net/ben10/images/b/ba/Benmummy_Model.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Classic series"
+  },
+  {
+    "name": "Ditto",
+    "species": "Splixson",
+    "planet": "Varies",
+    "abilities": "Duplication, coordinated attacks",
+    "image": "https://static.wikia.nocookie.net/ben10/images/8/8f/Ditto_Model.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Classic era"
+  },
+  {
+    "name": "Eye Guy",
+    "species": "Opticean",
+    "planet": "Varies",
+    "abilities": "Multiple eye beams, vision-based attacks",
+    "image": "https://static.wikia.nocookie.net/ben10/images/2/22/Eye_Guy_Without_Chest_Eye.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Classic era"
+  },
+  {
+    "name": "Way Big",
+    "species": "To’Kustar",
+    "planet": "To’Kustar",
+    "abilities": "Gigantic size, cosmic energy blasts, super strength",
+    "image": "https://static.wikia.nocookie.net/ben10/images/9/9c/Waybig_Model.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Classic series"
+  },
+  {
+    "name": "Upchuck",
+    "species": "Varies",
+    "planet": "Varies",
+    "abilities": "Consume materials and fire as projectiles",
+    "image": "https://static.wikia.nocookie.net/ben10/images/7/71/Upchuck_tabber.png",
+    "series": "Ben 10 Classic / later",
+    "firstAppearance": "Classic era"
+  },
+  {
+    "name": "Spitter",
+    "species": "Spheroid",
+    "planet": "Scalpus",
+    "abilities": "Can shoot high-pressure slime, durable body, can inflate himself for defense",
+    "image": "https://static.wikia.nocookie.net/ben10/images/f/fe/Spitter_Model.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Ben 10: Secret of the Omnitrix"
+  },
+  {
+    "name": "Buzzshock",
+    "species": "Nosedeenian",
+    "planet": "Nosedeen Quasar",
+    "abilities": "Electricity generation, energy travel through wires, duplication by splitting",
+    "image": "https://static.wikia.nocookie.net/ben10/images/5/5b/Buzzshock_Model_Front.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Ben 10: Secret of the Omnitrix"
+  },
+  {
+    "name": "Arctiguana",
+    "species": "Polar Manzardill",
+    "planet": "X'Nelli",
+    "abilities": "Ice breath, cryokinesis, extreme cold resistance",
+    "image": "https://static.wikia.nocookie.net/ben10/images/e/e6/OV_Teen_Arctiguana.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Ben 10: Secret of the Omnitrix"
+  },
+  {
+    "name": "Blitzwolfer",
+    "species": "Loboan",
+    "planet": "Luna Lobo",
+    "abilities": "Super strength, agility, enhanced hearing, sonic howls",
+    "image": "https://static.wikia.nocookie.net/ben10/images/3/34/Benwolf_Model.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Ben 10: Secret of the Omnitrix"
+  },
+  {
+    "name": "Frankenstrike",
+    "species": "Transylian",
+    "planet": "Anur Transyl",
+    "abilities": "Electrokinesis, super strength, durability, can recharge devices",
+    "image": "https://static.wikia.nocookie.net/ben10/images/7/7e/Benvicktor_2.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Ben 10: Secret of the Omnitrix"
+  },
+  {
+    "name": "Stinkarms",
+    "species": "Lepidopterran–Tetramand hybrid",
+    "planet": "Unknown",
+    "abilities": "Super strength, wall-climbing, slime spray, can emit toxic gas",
+    "image": "https://static.wikia.nocookie.net/ben10/images/f/f4/SA.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Ben 10: Secret of the Omnitrix"
+  },
+  {
+    "name": "Heat Jaws",
+    "species": "Piscciss Volann–Pyronite hybrid",
+    "planet": "Piscciss & Pyros",
+    "abilities": "Fire and magma generation underwater, can swim in lava, powerful bite",
+    "image": "https://static.wikia.nocookie.net/ben10fanfiction/images/0/05/Heatjaws.png",
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Ben 10: Omniverse (special hybrid)"
+  }
+
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Swampfire",
+    "species": "Methanosian",
+    "planet": "Methanos",
+    "abilities": "Fire regeneration, plant control, durability",
+    "image": "https://static.wikia.nocookie.net/ben10/images/d/d0/Swampfire_uaf_official.png",
+    "series": "Ben 10 Alien Force",
+    "firstAppearance": "Ben 10: Alien Force"
+  },
+  {
+    "name": "Echo Echo",
+    "species": "Sonorosian",
+    "planet": "Sonorosia",
+    "abilities": "Sonic blasts, duplication, sound manipulation",
+    "image": "https://static.wikia.nocookie.net/ben10/images/c/c8/EEAFT.png",
+    "series": "Ben 10 Alien Force",
+    "firstAppearance": "Ben 10: Alien Force"
+  },
+  {
+    "name": "Humungousaur",
+    "species": "Vaxasaurian",
+    "planet": "Terradino",
+    "abilities": "Size increase, super strength, bone projectiles",
+    "image": "https://static.wikia.nocookie.net/ben10/images/f/fa/Humungousaur_UAF_Model.png",
+    "series": "Ben 10 Alien Force",
+    "firstAppearance": "Ben 10: Alien Force"
+  },
+  {
+    "name": "Jetray",
+    "species": "Aerophibian",
+    "planet": "Rodh",
+    "abilities": "Flight, neuro-shocks, underwater travel",
+    "image": "https://static.wikia.nocookie.net/ben10/images/6/61/JetrayProfilePicture.png",
+    "series": "Ben 10 Alien Force",
+    "firstAppearance": "Ben 10: Alien Force"
+  },
+  {
+    "name": "Big Chill",
+    "species": "Necrofrigian",
+    "planet": "Kylmyys",
+    "abilities": "Cryokinesis, intangibility, flight",
+    "image": "https://static.wikia.nocookie.net/ben10/images/2/29/BCAF2T.png",
+    "series": "Ben 10 Alien Force",
+    "firstAppearance": "Ben 10: Alien Force"
+  },
+  {
+    "name": "Chromastone",
+    "species": "Crystalsapien",
+    "planet": "Petropia",
+    "abilities": "Energy absorption, redirection",
+    "image": "https://static.wikia.nocookie.net/ben10/images/f/fe/Chromastone_Clear.png",
+    "series": "Ben 10 Alien Force",
+    "firstAppearance": "Ben 10: Alien Force"
+  },
+  {
+    "name": "Brainstorm",
+    "species": "Gulder / Cerebrum-like",
+    "planet": "Varies",
+    "abilities": "Electric manipulation, intelligence",
+    "image": "https://static.wikia.nocookie.net/ben10/images/e/e9/Accurate_Brainstorm.png",
+    "series": "Ben 10 Alien Force",
+    "firstAppearance": "Ben 10: Alien Force"
+  },
+  {
+    "name": "Spidermonkey",
+    "species": "Arachnichimp",
+    "planet": "Varies",
+    "abilities": "Agility, web-slinging, tail grappling",
+    "image": "https://static.wikia.nocookie.net/ben10/images/8/84/Spidermonkey_UAF.png",
+    "series": "Ben 10 Alien Force",
+    "firstAppearance": "Ben 10: Alien Force"
+  },
+  {
+    "name": "Alien X",
+    "species": "Celestialsapien",
+    "planet": "Celestia",
+    "abilities": "Reality warping, time-space manipulation, near-omnipotence",
+    "image": "https://static.wikia.nocookie.net/ben10/images/e/ee/Alien_X_2.png",
+    "series": "Ben 10 Alien Force / Ultimate Alien",
+    "firstAppearance": "Classic / used in Alien Force"
+  },
+  {
+    "name": "Goop",
+    "species": "Polymorph",
+    "planet": "Viscosia",
+    "abilities": "Can liquefy body, shape-shift, acid resistance, levitation via anti-gravity disc",
+    "image": "https://static.wikia.nocookie.net/ben10/images/3/36/Goop_Clear.png",
+    "series": "Ben 10: Alien Force",
+    "firstAppearance": "Ben 10: Alien Force - The Gauntlet"
+  },
+  {
+    "name": "Nanomech",
+    "species": "Nanochip Hybrid",
+    "planet": "Hive World",
+    "abilities": "Size manipulation, flight, energy blasts, can enter machinery",
+    "image": "https://static.wikia.nocookie.net/ben10/images/5/5e/OmniverseNanomech.png",
+    "series": "Ben 10: Alien Force",
+    "firstAppearance": "Ben 10: Alien Swarm (Movie)"
+  },
+  {
+    "name": "Lodestar",
+    "species": "Biosovortian",
+    "planet": "Unknown",
+    "abilities": "Magnetism manipulation, metal control, detachable head",
+    "image": "https://static.wikia.nocookie.net/ben10/images/0/09/Lodestar_OV_Stand.png",
+    "series": "Ben 10: Alien Force",
+    "firstAppearance": "Ben 10: Alien Force - Simple"
+  },
+  {
+    "name": "Rath",
+    "species": "Appoplexian",
+    "planet": "Appoplexia",
+    "abilities": "Super strength, agility, combat rage, enhanced durability",
+    "image": "https://static.wikia.nocookie.net/ben10/images/5/56/Rath_1.png",
+    "series": "Ben 10: Alien Force",
+    "firstAppearance": "Ben 10: Alien Force - Con of Rath"
+  },
+  {
+    "name": "Rocks",
+    "species": "Unknown (Crystalline Lifeform)",
+    "planet": "Unknown",
+    "abilities": "Rock manipulation, durability, can launch rock projectiles",
+    "image": "https://static.wikia.nocookie.net/ben10/images/f/fb/Rockspose.png",
+    "series": "Ben 10: Alien Force",
+    "firstAppearance": "Ben 10: Alien Force (Game)"
+  },
+  {
+    "name": "Squidstrictor",
+    "species": "Cephalopod Alien",
+    "planet": "Unknown",
+    "abilities": "Elastic limbs, constriction strength, underwater breathing",
+    "image": "https://static.wikia.nocookie.net/ben10/images/4/41/SquidstrictorPose.png",
+    "series": "Ben 10: Alien Force",
+    "firstAppearance": "Ben 10: Alien Force (Game)"
+  }
+]
