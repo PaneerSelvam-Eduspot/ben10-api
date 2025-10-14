@@ -4,7 +4,7 @@ import { createAliens } from '../controllers/aliens.js';
 import Alien from '../models/Alien.js';
 
 
-const router = express.Router();
+const router = express.Router({ mergeParams: true });
 
 
 router.get('/', async ( req, res) => {
