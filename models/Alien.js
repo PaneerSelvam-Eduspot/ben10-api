@@ -7,6 +7,8 @@ const alienSchema = new mongoose.Schema({
   abilities: { type: String, required: true },
   image: { type: String },
   series: { type: String, required: true }
+}, {
+  collection: 'aliens',
 });
 
 const Alien = mongoose.model('Alien', alienSchema);
