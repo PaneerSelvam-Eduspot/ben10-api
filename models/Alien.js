@@ -6,7 +6,8 @@ const alienSchema = new mongoose.Schema({
   planet: { type: String, required: true },
   abilities: { type: String, required: true },
   image: { type: String },
-  series: { type: String, required: true }
+  series: { type: String, required: true },
+  firstAppearance: { type: String } 
 }, {
   collection: 'aliens',
 });
