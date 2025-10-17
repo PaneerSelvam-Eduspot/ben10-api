@@ -15,8 +15,8 @@ router.get('/', async ( req, res) => {
         
         
         if (seriesParam === "classic") seriesName = "Ben 10 Classic";
-        else if (seriesParam === "alien-force") seriesName = "Alien Force";
-        else if (seriesParam === "ultimate-alien") seriesName = "Ultimate Alien";
+        else if (seriesParam === "alien-force") seriesName = "Ben 10 Alien Force";
+        else if (seriesParam === "ultimate-alien") seriesName = "Ben 10 Ultimate Alien";
         
         if (!seriesName) {
             return res.status(404).json({ message: "Invalid series specified in the URL." });
