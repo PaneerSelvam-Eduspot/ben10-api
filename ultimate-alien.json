@@ -1,191 +1,233 @@
 [
   {
+    "id":40,
     "name": "Ultimate Humungousaur",
     "species": "Vaxasaurian",
     "planet": "Terradino",
     "abilities": "Gigantic growth, super strength, bio-bone projectiles, armored shell",
     "series": "Ben 10 Ultimate Alien",
     "firstAppearance": "The Final Battle: Part 1",
-    "image": "https://static.wikia.nocookie.net/ben10/images/3/34/UHUA.png"
+    "image": "https://static.wikia.nocookie.net/ben10/images/3/34/UHUA.png",
+    "description":"An evolved Humungousaur with a more aggressive appearance, even greater strength, and the ability to launch missile-like projectiles from his hands."
   },
   {
+    "id":41,
     "name": "Ultimate Swampfire ",
     "species": "Methanosian",
     "planet": "Methanos",
     "abilities": "Plant/fire hybrid, regeneration, explosive fire bombs, tree-like structure",
     "series": "Ben 10 Ultimate Alien",
-    "firstAppearance": "The Final Battle: Part 1",
-    "image": "https://static.wikia.nocookie.net/ben10/images/4/4e/Alien-gallery_ultimate_swampfire.png"
+    "firstAppearance": "The Final Battle: Part 2",
+    "image": "https://static.wikia.nocookie.net/ben10/images/4/4e/Alien-gallery_ultimate_swampfire.png",
+    "description":"An evolved Swampfire capable of launching larger and more powerful fireballs, absorbing plant life, and regenerating more quickly. "
   },
   {
+    "id":42,
     "name": "Ultimate Big Chill ",
     "species": "Necrofrigian",
     "planet": "Kylmyys",
     "abilities": "Plasma-ice flame, flight, intangibility, freezing powers",
     "series": "Ben 10 Ultimate Alien",
     "firstAppearance": "Hit ‘Em Where They Live",
-    "image": "https://static.wikia.nocookie.net/ben10/images/9/9e/OV_BigChill.png"
+    "image": "https://static.wikia.nocookie.net/ben10/images/4/4b/Ultimate_Big_Chill_Uncloaked_Shaded.png",
+    "description":"An evolved Big Chill with an aggressive appearance, capable of producing more powerful ice blasts and freezing opponents instantly."
   },
   {
+    "id":43,
     "name": "Ultimate Spidermonkey ",
     "species": "Arachnichimp",
     "planet": "Varies",
     "abilities": "Enhanced agility, webbing, more arms, strength boost",
     "series": "Ben 10 Ultimate Alien",
-    "firstAppearance": "Same as Spidermonkey in Alien Force (used Ultimate form in UA)",
-    "image": "https://static.wikia.nocookie.net/ben10/images/9/92/UA_UltimateSpidermonkey.png"
+    "firstAppearance": "Fame",
+    "image": "https://static.wikia.nocookie.net/ben10/images/9/92/UA_UltimateSpidermonkey.png",
+    "description":"An evolved Spidermonkey with multiple limbs and a longer tail. He can shoot thicker and stronger webbing, and generate sticky, web-like balls."
   },
   {
+    "id":44,
     "name": "Ultimate Cannonbolt ",
     "species": "Arburian Pelarota",
     "planet": "Arburia",
     "abilities": "Ultimate spin form, reinforced shell, stronger impact, better defense",
     "series": "Ben 10 Ultimate Alien",
     "firstAppearance": "Too Hot to Handle",
-    "image": "https://static.wikia.nocookie.net/ben10/images/2/20/Ultimate_Cannonbolt_Model.png"
+    "image": "https://static.wikia.nocookie.net/ben10/images/2/20/Ultimate_Cannonbolt_Model.png",
+    "description":"An evolved Cannonbolt with a spikier, more durable shell. He can roll into a spiked ball to deliver powerful spiked attacks."
   },
   {
+    "id":45,
     "name": "Ultimate Way Big ",
     "species": "To'Kustar",
     "planet": "To'Kustar",
     "abilities": "Gigantic size (much larger), cosmic energy blasts, super strength",
     "series": "Ben 10 Ultimate Alien",
-    "firstAppearance": "The Final Battle (Part 1)",
-    "image": "https://static.wikia.nocookie.net/character-stats-and-profiles/images/3/38/Ben_10_Alien_Force_Ultimate_Way_Big_%28Render%29.png"
+    "firstAppearance": "The Ultimate Enemy: Part 2",
+    "image": "https://static.wikia.nocookie.net/character-stats-and-profiles/images/3/38/Ben_10_Alien_Force_Ultimate_Way_Big_%28Render%29.png",
+    "description":"An evolved Way Big who is gigantic in size and even more powerful, capable of flying through space and firing cosmic energy beams."
   },
    {
+    "id":46,
     "name": "Water Hazard",
     "species": "Unknown",
     "planet": "Varies",
     "abilities": "Acidic water manipulation, fluidity",
     "image": "https://static.wikia.nocookie.net/ben10/images/7/7b/Waterguy.png",
     "series": "Ben 10 Ultimate Alien",
-    "firstAppearance": "Ben 10: Ultimate Alien"
+    "firstAppearance": "Too Hot to Handle",
+    "description":" A red, aquatic Orishan alien who can shoot highly pressurized streams of water and absorb water from his surroundings."
   },
   {
+    "id":47,
     "name": "AmpFibian",
     "species": "Amperi",
     "planet": "Tesslos (gas planet)",
     "abilities": "Electrokinesis, amphibious ability, adaptability to watery / toxic environments",
     "series": "Ben 10 Ultimate Alien",
-    "firstAppearance": "Ben 10: Ultimate Alien",
-    "image": "https://static.wikia.nocookie.net/ben10/images/e/e1/Ns457Wv.png"
+    "firstAppearance": "Fused",
+    "image": "https://static.wikia.nocookie.net/ben10/images/e/e1/Ns457Wv.png",
+    "description":"A jellyfish-like Amperi who can fly, manipulate electricity, read minds, and turn intangible to pass through electrical currents."
   },
   {
+    "id":48,
     "name": "Armodrillo",
     "species": "Talpaedan",
     "planet": "Talpaed",
     "abilities": "Earth / seismic manipulation, drill limbs, strength",
     "series": "Ben 10 Ultimate Alien",
-    "firstAppearance": "Ben 10: Ultimate Alien",
-    "image": "https://static.wikia.nocookie.net/ben10/images/f/f3/Armodrillo_2.png"
+    "firstAppearance": "Hero Time",
+    "image": "https://static.wikia.nocookie.net/ben10/images/f/f3/Armodrillo_2.png",
+    "description":"A strong, armored Talpaedan who can generate powerful earthquakes and create fissures using his jackhammer-like arms."  
   },
   {
+    "id":49,
     "name": "Terraspin",
     "species": "Geochelone",
     "planet": "Unknown (shell planet variant)",
     "abilities": "Wind control, spinning shell, flight by spinning, strength",
     "series": "Ben 10 Ultimate Alien",
-    "firstAppearance": "Ben 10: Ultimate Alien",
-    "image": "https://static.wikia.nocookie.net/ben10/images/8/88/OV_Terraspin_Stand.PNG"
+    "firstAppearance": "Reflected Glory",
+    "image": "https://static.wikia.nocookie.net/ben10/images/8/88/OV_Terraspin_Stand.PNG",
+    "description":"A green, turtle-like Geochelone Aerio alien with a propeller-like underside. He can spin his shell to create powerful wind attacks."
   },
   {
+    "id":50,
     "name": "NRG",
     "species": "Unknown / nuclear entity",
     "planet": "Unknown",
     "abilities": "Radiation, energy blasts, thermokinesis, toxic effects",
     "series": "Ben 10 Ultimate Alien",
-    "firstAppearance": "Ben 10: Ultimate Alien",
-    "image": "https://static.wikia.nocookie.net/ben10/images/9/97/NRG.png"
+    "firstAppearance": "The Forge of Creation",
+    "image": "https://static.wikia.nocookie.net/ben10/images/9/97/NRG.png",
+    "description":"A radioactive, energy-based Prypiatosian-B alien encased in a heavy containment suit. He can shoot powerful radioactive beams and absorb energy. "
   },
   {
+    "id":51,
     "name": "Fasttrack",
     "species": "Speedster",
     "planet": "Unknown",
     "abilities": "Extreme speed, reflexes, fast acceleration",
     "series": "Ben 10 Ultimate Alien",
-    "firstAppearance": "Ben 10: Ultimate Alien",
-    "image": "https://static.wikia.nocookie.net/ben10/images/4/4b/FasttrackPose.png"
+    "firstAppearance": "Basic Training",
+    "image": "https://static.wikia.nocookie.net/ben10/images/4/4b/FasttrackPose.png",
+    "description": "A feline-like alien with superhuman speed, enhanced reflexes, and strength, but is less agile and has a harder time stopping than XLR8."
   },
   {
+    "id":52,
     "name": "Clockwork",
     "species": "Chronosapien",
     "planet": "Clockworld",
     "abilities": "Time manipulation, pausing/moving time segments, rewinding small frames",
     "series": "Ben 10 Ultimate Alien",
-    "firstAppearance": "Ben 10 Ultimate Alien",
-    "image": "https://static.wikia.nocookie.net/ben10/images/6/6e/Clocky.png"
+    "firstAppearance": "Inspector #13",
+    "image": "https://static.wikia.nocookie.net/ben10/images/6/6e/Clocky.png",
+    "description":"A time-manipulating Chronosapien, this robotic alien can fire time rays to age, reverse, or freeze objects and people, but is slow and vulnerable to electromagnetic pulses."
   },
   {
+    "id":53,
     "name": "Chamalien",
     "species": "Merkurian",
     "planet": "Merkuria",
     "abilities": "Invisibility, camouflage, agility, energy tail whip",
     "image": "https://static.wikia.nocookie.net/ben10/images/d/d3/UltimateAlienChamAlien.png",
-    "series": "Ben 10: Ultimate Alien",
-    "firstAppearance": "Ben 10: Ultimate Alien - The Big Story"
+    "series": "Ben 10 Ultimate Alien",
+    "firstAppearance": "Prisoner Number 775 is Missing",
+    "description":" A small, gecko-like alien with the ability to become perfectly invisible and blend into any environment to evade enemies. "
   },
   {
+    "id":54,
     "name": "Eatle",
     "species": "Oryctini",
     "planet": "Sarcophagus 9",
     "abilities": "Energy absorption, plasma blasts from horn, durable shell",
     "image": "https://static.wikia.nocookie.net/ben10/images/9/95/Eatle_omniverse_official.png",
-    "series": "Ben 10: Ultimate Alien",
-    "firstAppearance": "Ben 10: Ultimate Alien - A Knight to Remember"
+    "series": "Ben 10 Ultimate Alien",
+    "firstAppearance": "A Knight to Remember",
+    "description":"A large, rhinoceros beetle-like alien with a powerful jaw and horn. He can eat and consume most materials and then convert them into a powerful energy beam fired from his horn."
   },
   {
+    "id":55,
     "name": "Jury Rigg",
     "species": "Planchaküle",
     "planet": "Unknown",
     "abilities": "Super speed, mechanical repair and sabotage, hyperactivity",
     "image": "https://static.wikia.nocookie.net/benult/images/9/98/Jury_Rigg.png",
-    "series": "Ben 10: Ultimate Alien",
-    "firstAppearance": "Ben 10: Ultimate Alien - The Eggman Cometh"
+    "series": "Ben 10 Ultimate Alien",
+    "firstAppearance": "The Eggman Cometh",
+    "description":"A small, impish Gremlin-like alien with a destructive talent for improvisational mechanical manipulation, capable of building and repairing technology from scrap."
   },
   {
+    "id":56,
     "name": "Shocksquatch",
     "species": "Gimlinopithecus",
     "planet": "Pattersonea",
     "abilities": "Electrokinesis, enhanced strength, speed, and durability",
     "image": "https://static.wikia.nocookie.net/ben10/images/a/a6/Shocksquatch_omniverse_official.png",
-    "series": "Ben 10: Ultimate Alien",
-    "firstAppearance": "Ben 10: Ultimate Alien - Ben 10,000 Returns"
+    "series": "Ben 10 Ultimate Alien",
+    "firstAppearance": "Ben 10/Generator Rex: Heroes United",
+    "description": "A yeti-like alien who can generate and manipulate electricity from his body, creating powerful electrical charges and shockwaves."
   },
   {
+    "id":57,
     "name": "Ultimate Wildmutt",
     "species": "Vulpimancer (Evolved)",
     "planet": "Vulpin",
     "abilities": "Sight restored, enhanced senses, larger body, acidic saliva",
     "image": "https://static.wikia.nocookie.net/ben10/images/2/2a/UltimateWildmuttOfficial.png",
-    "series": "Ben 10: Ultimate Alien",
-    "firstAppearance": "Ben 10: Ultimate Alien (Game)"
+    "series": "Ben 10 Ultimate Alien",
+    "firstAppearance": "Prisoner Number 775 is Missing",
+    "description":"An evolved Wildmutt with a larger and more ferocious appearance, possessing enhanced strength, speed, and agility."
   },
   {
+    "id":58,
     "name": "Ultimate Greymatter",
     "species": "Galvan (Evolved)",
     "planet": "Galvan Prime",
     "abilities": "Enhanced intelligence, energy manipulation, teleportation",
     "image": "https://static.wikia.nocookie.net/ben10fanfiction/images/0/08/Ultimate_Grey_Matter.jpg",
-    "series": "Ben 10: Ultimate Alien",
-    "firstAppearance": "Ben 10: Ultimate Alien (Game)"
+    "series": "Ben 10 Ultimate Alien",
+    "firstAppearance": "Against Mirror",
+    "description":"An evolved Grey Matter who is even more intelligent, capable of solving the most complex problems and developing highly intricate plans. "
   },
   {
+    "id":59,
     "name": "Ultimate Arctiguana",
     "species": "Polar Manzardill (Evolved)",
     "planet": "X'Nelli",
     "abilities": "Frost breath with spikes, faster ice generation, can fly using ice jets",
-    "image": "https://static.wikia.nocookie.net/ben10/images/e/e6/OV_Teen_Arctiguana.png",
-    "series": "Ben 10: Ultimate Alien",
-    "firstAppearance": "Ben 10: Ultimate Alien (Game)"
+    "image": "https://static.wikia.nocookie.net/ben10/images/2/29/Negative_Ultimate_Articguana.png",
+    "series": "Ben 10 Ultimate Alien",
+    "firstAppearance": "For a Few Brains More",
+    "description":"A cold-blooded, bipedal iguana-like alien that can breathe a freezing vapor or fire a long-range freeze ray from his mouth to encase his targets in ice."
   },
   {
+    "id":60,
     "name": "Ultimate Rath",
     "species": "Appoplexian (Evolved)",
     "planet": "Appoplexia",
     "abilities": "Larger build, stronger claws, armored skin, energy roar",
     "image": "https://static.wikia.nocookie.net/ben10/images/4/40/Ultimate_Rath_OV.png",
-    "series": "Ben 10: Ultimate Alien",
-    "firstAppearance": "Ben 10: Ultimate Alien (Game)"
+    "series": "Ben 10 Ultimate Alien",
+    "firstAppearance": "Malgax Attacks",
+    "description":"An evolved Rath with a more primal and aggressive appearance, possessing even greater strength and destructive capabilities."
   }
 ]

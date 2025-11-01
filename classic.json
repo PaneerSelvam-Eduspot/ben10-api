@@ -1,219 +1,267 @@
 [
   {
+    "id": 1,
     "name": "Heatblast",
     "species": "Pyronite",
     "planet": "Pyros",
     "abilities": "Fire generation, fire manipulation, heat absorption, flight",
     "image": "https://static.wikia.nocookie.net/ben10/images/7/70/Heatblast_os.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "And Then There Were 10"
+    "firstAppearance": "And Then There Were 10",
+    "description": "A Pyronite made of magma who can generate and manipulate fire and can be a walking rock man on fire."
   },
   {
+    "id": 2,
     "name": "Wildmutt",
     "species": "Vulpimancer",
     "planet": "Vulpin",
     "abilities": "Enhanced senses, speed, agility, biting",
     "image": "https://static.wikia.nocookie.net/ben10/images/9/9a/Wildmutt_OS_Omnitrix_side.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "And Then There Were 10"
+    "firstAppearance": "And Then There Were 10",
+    "description":"A canine-like Vulpimancer alien with no eyes, enhanced senses of smell and hearing, and a fierce, agile fighting style."
   },
   {
+    "id":3,
     "name": "Diamondhead",
     "species": "Petrosapien",
     "planet": "Petropia",
     "abilities": "Crystal generation, super durability, melee constructs",
     "image": "https://static.wikia.nocookie.net/ben10/images/a/ab/Diamondhead_os.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Permanent Retirement"
+    "firstAppearance": "And Then There Were 10",
+    "description":" A crystalline Petrosapien with a body made of dense, diamond-like material. He can grow and shape crystalline structures from his body, and fire sharp crystal shards."
   },
   {
+    "id":4,
     "name": "XLR8",
     "species": "Kineceleran",
     "planet": "Kinet",
     "abilities": "Super speed, rapid reflexes, vortex generation",
-    "image": "https://static.wikia.nocookie.net/ben10/images/8/85/XLR8.png",
+    "image": "https://static.wikia.nocookie.net/ben10/images/9/90/OS_XLR8_front_pose.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Washington, D.C."
+    "firstAppearance": "And Then There Were 10",
+    "description":"A fast, reptilian Kineceleran alien with incredible speed and reflexes. He can run at supersonic speeds and create powerful tornadoes."
   },
   {
+    "id":5,
     "name": "Grey Matter",
     "species": "Galvan",
     "planet": "Galvan Prime",
     "abilities": "Genius-level intellect, stealth, wall climbing",
     "image": "https://static.wikia.nocookie.net/ben10/images/1/1d/Grey_matter_profile.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Washington, D.C."
+    "firstAppearance": "Washington, B.C.",
+    "description":"A tiny but brilliant Galvan whose super-intelligence allows him to solve complex problems and build advanced technology."
   },
   {
+    "id":6,
     "name": "Four Arms",
     "species": "Tetramand",
     "planet": "Khoros",
     "abilities": "Super strength, shockwave clap, durability",
     "image": "https://static.wikia.nocookie.net/ben10/images/d/d0/Four_arms_os_render.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Washington, D.C."
+    "firstAppearance": "Washington, B.C.",
+    "description":"A powerful Tetramand with immense superhuman strength, enhanced durability, and the ability to create powerful shockwaves with his hands."
   },
   {
+    "id":7,
     "name": "Stinkfly",
     "species": "Lepidopterran",
     "planet": "Varies",
     "abilities": "Flight, acidic sprays, sticky nets",
     "image": "https://static.wikia.nocookie.net/ben10/images/4/4d/Stinkfly_os_render.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Washington, D.C."
+    "firstAppearance": "Washington, B.C.",
+    "description":"A large, insect-like Lepidopterran alien with large wings and four eyes. He can fly at high speeds, and spray foul-smelling liquid from his eyes. "
   },
   {
+    "id":8,
     "name": "Ripjaws",
     "species": "Piscciss Volann",
     "planet": "Piscciss",
     "abilities": "Underwater breathing, powerful jaws, swimming",
     "image": "https://static.wikia.nocookie.net/ben10fanbase/images/7/77/Ripjaws_HT.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Washington, D.C."
+    "firstAppearance": "The Krakken",
+    "description":" An amphibious Piscciss Volann alien with sharp claws, a tail, and powerful jaws. He is a skilled underwater swimmer and can chew through solid material."
   },
   {
+    "id":9,
     "name": "Upgrade",
     "species": "Galvanic Mechamorph",
     "planet": "Galvan B",
     "abilities": "Merge with machinery, tech upgrade, shapeshifting metallic forms",
     "image": "https://static.wikia.nocookie.net/ben10/images/6/62/Upgrade_Model.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Washington, D.C."
+    "firstAppearance": "Permanent Retirement",
+    "description":"A sentient, liquid-metallic Galvanic Mechamorph. He can merge with and control technology, and shape-shift his body."
   },
   {
+    "id":10,
     "name": "Ghostfreak",
     "species": "Ectonurite",
     "planet": "Anur Phaetos",
     "abilities": "Intangibility, invisibility, possession",
     "image": "https://static.wikia.nocookie.net/ben10/images/a/a3/GhostfreakPose2.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Washington, D.C."
+    "firstAppearance": "Permanent Retirement",
+    "description":"An Ectonurite who can turn invisible and intangible, possess the bodies of others, and use sharp tentacles hidden beneath his outer skin."
   },
   {
+    "id":11,
     "name": "Cannonbolt",
     "species": "Arburian Pelarota",
     "planet": "Arburia",
     "abilities": "Roll into armored ball, high-impact tackles, durability",
     "image": "https://static.wikia.nocookie.net/ben10/images/1/15/Cannonbolt.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Permanent Retirement"
+    "firstAppearance": "The Big Tick",
+    "description":" A large, heavily armored Arburian Pelarota alien who can curl into a near-invulnerable ball and roll at high speeds to smash through obstacles."
   },
   {
+    "id":12,
     "name": "Wildvine",
     "species": "Florauna",
     "planet": "Florauna",
     "abilities": "Plant control, regeneration, entangling vines",
     "image": "https://static.wikia.nocookie.net/ben10/images/6/61/Wildvine_Flors_Verdance.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Permanent Retirement"
+    "firstAppearance": "Camp Fear",
+    "description":"A plant-like alien with a durable, vine-like body. He can stretch his limbs, grow sharp thorns, and fire sticky, organic projectiles."
   },
   {
+    "id":13,
     "name": "Snare-oh",
     "species": "Snake-like humanoid",
     "planet": "Varies",
     "abilities": "Trapping, constriction, venom",
     "image": "https://static.wikia.nocookie.net/ben10/images/b/ba/Benmummy_Model.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Classic series"
+    "firstAppearance": "The Return",
+    "description":"A mummy-like alien whose bandages are elastic and can regenerate, allowing him to shapeshift, stretch, and fit into tight spaces."
   },
   {
+    "id":14,
     "name": "Ditto",
     "species": "Splixson",
     "planet": "Varies",
     "abilities": "Duplication, coordinated attacks",
     "image": "https://static.wikia.nocookie.net/ben10/images/8/8f/Ditto_Model.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Classic era"
+    "firstAppearance": "Divided We Stand",
+    "description":"A small, amphibious, frog-like Splixson alien with the power of self-replication. He can create multiple copies of himself, and all clones share a hive mind and feel each other's pain."
   },
   {
+    "id":15,
     "name": "Eye Guy",
     "species": "Opticean",
     "planet": "Varies",
     "abilities": "Multiple eye beams, vision-based attacks",
     "image": "https://static.wikia.nocookie.net/ben10/images/2/22/Eye_Guy_Without_Chest_Eye.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Classic era"
+    "firstAppearance": "Ben 10 vs. Negative 10: Part 2",
+    "description":"A green-skinned alien with eyes covering his entire body, who can fire a wide variety of energy blasts from his many eyes, including a powerful eye beam from his chest."
   },
   {
+    "id":16,
     "name": "Way Big",
     "species": "To’Kustar",
     "planet": "To’Kustar",
     "abilities": "Gigantic size, cosmic energy blasts, super strength",
-    "image": "https://static.wikia.nocookie.net/ben10/images/9/9c/Waybig_Model.png",
+    "image": "https://static.wikia.nocookie.net/ben10/images/e/ee/UAF_WayBig.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Classic series"
+    "firstAppearance": "Ken 10",
+    "description":"A giant, humanoid To'kustar alien who is one of the largest and most powerful aliens in the Omnitrix. He can fire cosmic energy beams."
   },
   {
+    "id":17,
     "name": "Upchuck",
     "species": "Varies",
     "planet": "Varies",
     "abilities": "Consume materials and fire as projectiles",
     "image": "https://static.wikia.nocookie.net/ben10/images/7/71/Upchuck_tabber.png",
-    "series": "Ben 10 Classic / later",
-    "firstAppearance": "Classic era"
+    "series": "Ben 10 Classic",
+    "firstAppearance": "Classic era",
+    "description":"A small, green, frog-like Gourmand alien with a long, adhesive tongue. He can eat and digest almost any material and then project a powerful energy blast."
   },
   {
+    "id":18,
     "name": "Spitter",
     "species": "Spheroid",
     "planet": "Scalpus",
     "abilities": "Can shoot high-pressure slime, durable body, can inflate himself for defense",
     "image": "https://static.wikia.nocookie.net/ben10/images/f/fe/Spitter_Model.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Ben 10: Secret of the Omnitrix"
+    "firstAppearance": "Ben 10,000",
+    "description":"A pufferfish-like Spheroid who can shoot a concentrated stream of super-adhesive, pressurized slime from his mouth."
   },
   {
+    "id":19,
     "name": "Buzzshock",
     "species": "Nosedeenian",
     "planet": "Nosedeen Quasar",
     "abilities": "Electricity generation, energy travel through wires, duplication by splitting",
     "image": "https://static.wikia.nocookie.net/ben10/images/5/5b/Buzzshock_Model_Front.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Ben 10: Secret of the Omnitrix"
+    "firstAppearance": "Ben 10,000",
+    "description":" A small, battery-like Nosedeenian alien who can absorb, generate, and manipulate electricity. He can travel through electrical conduits at high speed and duplicate himself when he has enough power."
   },
   {
+    "id":20,
     "name": "Arctiguana",
     "species": "Polar Manzardill",
     "planet": "X'Nelli",
     "abilities": "Ice breath, cryokinesis, extreme cold resistance",
     "image": "https://static.wikia.nocookie.net/ben10/images/e/e6/OV_Teen_Arctiguana.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Ben 10: Secret of the Omnitrix"
+    "firstAppearance": "Ben 10,000",
+    "description":"A Polar Manzardill who can breathe a powerful, long-range freezing ray that can instantly freeze liquids, including lava."
   },
   {
+    "id":21,
     "name": "Blitzwolfer",
     "species": "Loboan",
     "planet": "Luna Lobo",
     "abilities": "Super strength, agility, enhanced hearing, sonic howls",
-    "image": "https://static.wikia.nocookie.net/ben10/images/3/34/Benwolf_Model.png",
+    "image": "https://static.wikia.nocookie.net/ben10/images/7/77/Blitzwolfer_OS_action_pose.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Ben 10: Secret of the Omnitrix"
+    "firstAppearance": "Benwolf",
+    "description":"A Loboan werewolf-like alien with enhanced senses, speed, and sharp claws, whose main weapon is a powerful sonic howl."
   },
   {
+    "id":22,
     "name": "Frankenstrike",
     "species": "Transylian",
     "planet": "Anur Transyl",
     "abilities": "Electrokinesis, super strength, durability, can recharge devices",
     "image": "https://static.wikia.nocookie.net/ben10/images/7/7e/Benvicktor_2.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Ben 10: Secret of the Omnitrix"
+    "firstAppearance": "Be Afraid of the Dark",
+    "description":"A Frankenstein-inspired alien who can generate and manipulate electricity, use magnetism to stick to metal, and possesses enhanced strength."
   },
   {
+    "id":23,
     "name": "Stinkarms",
     "species": "Lepidopterran–Tetramand hybrid",
     "planet": "Unknown",
     "abilities": "Super strength, wall-climbing, slime spray, can emit toxic gas",
     "image": "https://static.wikia.nocookie.net/ben10/images/f/f4/SA.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Ben 10: Secret of the Omnitrix"
+    "firstAppearance": "Dr. Animo and the Mutant Ray",
+    "description":"A fusion alien combining the DNA of Four Arms and Stinkfly. He possesses enhanced strength, flight, and the ability to spray slime from his eyes."
   },
   {
+    "id":24,
     "name": "Heat Jaws",
     "species": "Piscciss Volann–Pyronite hybrid",
     "planet": "Piscciss & Pyros",
     "abilities": "Fire and magma generation underwater, can swim in lava, powerful bite",
     "image": "https://static.wikia.nocookie.net/ben10fanfiction/images/0/05/Heatjaws.png",
     "series": "Ben 10 Classic",
-    "firstAppearance": "Ben 10: Omniverse (special hybrid)"
+    "firstAppearance": "Dr. Animo and the Mutant Ray",
+    "description":"A hybrid of Heatblast and Ripjaws, this alien combines Ripjaws' sharp teeth and underwater breathing with Heatblast's fire powers, which become scalding steam underwater"
   }
 
 ]
