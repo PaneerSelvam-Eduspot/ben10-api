@@ -15,7 +15,7 @@ await connectDB();
 app.use(cors());
 app.use(bodyParser.json());
 
-app.use('/api/v1/:series/:id', aliensRouter); 
+app.use('/api/v1/:series', aliensRouter); 
 
 app.get('/', (req,res) =>{ 
   res.send('Welcome to the Ben 10 Aliens API!');
