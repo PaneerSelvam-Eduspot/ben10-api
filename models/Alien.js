@@ -15,6 +15,6 @@ const alienSchema = new mongoose.Schema({
   collection: 'ben10aliens',
 });
 
-const Alien = mongoose.model('Alien', alienSchema);
+const Alien = mongoose.model('ben10aliens', alienSchema);
 
 export default Alien;
