@@ -1,11 +1,10 @@
 import Alien from '../models/Alien.js';
 
-
 let aliens = [];
 
 export const getAliens = async(req, res) => {
   try{
-    const aliens = await Alien.find();
+    aliens = await Alien.find();
     res.status(200).json(aliens);
   } catch (error) {
     res.status(500).json({ message: error.message });

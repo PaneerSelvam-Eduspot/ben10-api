@@ -3,12 +3,12 @@ import bodyParser from 'body-parser'
 import aliensRouter from './routes/aliens.js';
 import connectDB from './config/db.js';
 import cors from 'cors';
+import 'dotenv/config'; 
 
 
 const app = express();
 const PORT = process.env.PORT || 5000; 
 
-import 'dotenv/config'; 
 
 await connectDB();
 
