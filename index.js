@@ -21,8 +21,7 @@ app.use(cors({
 }));
 
 app.use(bodyParser.json());
-app.use('./public/aliens/image', express.static(path.join(__dirname, 'public/aliens/image')));
-app.use('./public/aliens/transformimg', express.static(path.join(__dirname, 'public/aliens/transformimg')));
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
 app.use('/api/v1/:series', aliensRouter); 
 
