@@ -12,8 +12,7 @@ router.get('/', async ( req, res) => {
         
         const seriesParam = req.params.series; 
         let seriesName = "";
-        
-        
+                
         if (seriesParam === "classic") seriesName = "Ben 10 Classic";
         else if (seriesParam === "alien-force") seriesName = "Ben 10 Alien Force";
         else if (seriesParam === "ultimate-alien") seriesName = "Ben 10 Ultimate Alien";
