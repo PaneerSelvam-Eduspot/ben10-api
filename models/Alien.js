@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const alienSchema = new mongoose.Schema({
-  id: {type: String, required: true},
+  id: {type: Number, required: true},
   name: { type: String, required: true },
   species: { type: String, required: true },
   planet: { type: String, required: true },
