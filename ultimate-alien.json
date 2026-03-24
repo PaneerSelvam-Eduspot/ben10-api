@@ -104,7 +104,7 @@
     "series": "Ben 10 Ultimate Alien",
     "firstAppearance": "Hero Time",
     "image": "/public/aliens/image/armodrillo.webp",
-    "transform": "/public/aliens/transformimg/armodillo.png",
+    "transform": "/public/aliens/transformimg/armodrillo.png",
     "description":"A strong, armored Talpaedan who can generate powerful earthquakes and create fissures using his jackhammer-like arms."  
   },
   {
@@ -198,7 +198,7 @@
     "planet": "Pattersonea",
     "abilities": "Electrokinesis, enhanced strength, speed, and durability",
     "image": "/public/aliens/image/shocksquatch.webp",
-    "transform": "/public/aliens/transformimg/shockssquatch.png",
+    "transform": "/public/aliens/transformimg/shocksquatch.png",
     "series": "Ben 10 Ultimate Alien",
     "firstAppearance": "Ben 10/Generator Rex: Heroes United",
     "description": "A yeti-like alien who can generate and manipulate electricity from his body, creating powerful electrical charges and shockwaves."

@@ -114,7 +114,7 @@
     "planet": "Viscosia",
     "abilities": "Can liquefy body, shape-shift, acid resistance, levitation via anti-gravity disc",
     "image": "/public/aliens/image/goop.webp",
-    "transform": "/public/aliens/transformimg/goop.png",
+    "transform": "/public/aliens/transformimg/goop.webp",
     "series": "Ben 10 Alien Force",
     "firstAppearance": "The Gauntlet",
     "description":"A Polymorph composed of an intelligent green ooze that can change shape and is controlled by an Anti-Gravity Projector, making him nearly invulnerable."

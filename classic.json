@@ -197,8 +197,8 @@
     "species": "Varies",
     "planet": "Varies",
     "abilities": "Consume materials and fire as projectiles",
-    "image": "/public/aliens/image/upchuk.webp",
-    "transform": "/public/aliens/transformimg/upchuk.png",
+    "image": "/public/aliens/image/upchuck.webp",
+    "transform": "/public/aliens/transformimg/upchuck.png",
     "series": "Ben 10 Classic",
     "firstAppearance": "Classic era",
     "description":"A small, green, frog-like Gourmand alien with a long, adhesive tongue. He can eat and digest almost any material and then project a powerful energy blast."
