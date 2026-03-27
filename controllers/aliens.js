@@ -23,11 +23,10 @@ export const getAliens = async(req, res) => {
 
       const aliens = await Alien.find(mongoQuery);
 
-      const baseUrl = `${req.protocol}://${req.get('host')}`;
       const aliensWithUrls = aliens.map(alien => ({
         ...alien._doc,
-        image: `${baseUrl}/public/aliens/image/${alien.image}`,
-        transform: `${baseUrl}/public/aliens/transformimg/${alien.transform}`
+        image: `/public/aliens/image/${alien.image}`,
+        transform: `/public/aliens/transformimg/${alien.transform}`
       }));
 
       res.status(200).json(aliensWithUrls);
@@ -65,11 +64,10 @@ export const getAlien = async (req,res) => {
 
       if (!alien) return res.status(404).json({ message: 'Alien not found'});
       
-      const baseUrl = `${req.protocol}://${req.get('host')}`;
       res.status(200).json({
         ...alien._doc,
-        image: `${baseUrl}/public/aliens/image/${alien.image}`,
-        transform: `${baseUrl}/public/aliens/transformimg/${alien.transform}`
+        image: `/public/aliens/image/${alien.image}`,
+        transform: `/public/aliens/transformimg/${alien.transform}`
       });
     } catch (error) {
       res.status(500).json({ message: error.message });
