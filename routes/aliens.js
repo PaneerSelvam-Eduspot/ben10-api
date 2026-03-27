@@ -1,33 +1,41 @@
-
 import express from 'express';
 import { createAliens } from '../controllers/aliens.js'; 
 import Alien from '../models/Alien.js';
 
-
 const router = express.Router({ mergeParams: true });
 
-
-router.get('/', async ( req, res) => {
-    try{
+const seriesMap = {
+    "classic": "Ben 10 Classic",
+    "alien-force": "Ben 10 Alien Force",
+    "ultimate-alien": "Ben 10 Ultimate Alien"
+}
+router.get('/:series', async (req, res) => {
+    try {
+        const seriesParam = req.params.series;      
+        const seriesName = seriesMap[seriesParam];
         
-        const seriesParam = req.params.series; 
-        let seriesName = "";
-                
-        if (seriesParam === "classic") seriesName = "Ben 10 Classic";
-        else if (seriesParam === "alien-force") seriesName = "Ben 10 Alien Force";
-        else if (seriesParam === "ultimate-alien") seriesName = "Ben 10 Ultimate Alien";
-        
-        if (!seriesName) {
-            return res.status(404).json({ message: "Invalid series specified in the URL." });
+        if (!seriesName){
+            return res.status(404).json({ message: "Series not found" });
         }
 
-        const aliens = await Alien.find({ series: seriesName });
+        const { name, id } = req.query; 
+
+        let mongoQuery = { series: seriesName };
+
+        if (name) {
+            mongoQuery.name = new RegExp(name, 'i');
+        }
+        if (id) {
+            mongoQuery.id = id;
+        }
+        console.log('mongoQuery:', mongoQuery);
+        const aliens = await Alien.find(mongoQuery);
         res.status(200).json(aliens);
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
 });
 
-router.post('/', createAliens); 
+router.post('/:series', createAliens); 
 
 export default router;

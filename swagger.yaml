@@ -1,0 +1,58 @@
+openapi: 3.0.0
+info:
+  title: Ben 10 Aliens API
+  version: 1.0.0
+  description: API for Ben 10 aliens across different series
+
+servers:
+  - url: http://localhost:5000
+  - url: https://ben10-aliens-api.onrender.com
+
+components:
+  schemas:
+    Alien:
+      type: object
+      properties:
+        name:
+          type: string
+        species:
+          type: string
+        image:
+          type: string
+        series:
+          type: string
+
+paths:
+  /api/v1/aliens/{series}:
+    get:
+      summary: Get aliens by series
+      parameters:
+        - in: path
+          name: series
+          required: true
+          schema:
+            type: string
+            enum: [classic, alien-force, ultimate-alien]
+        - in: query
+          name: name
+          schema:
+            type: string
+          description: Filter by alien name  
+        - in: query
+          name: id
+          schema:
+            type: string
+          description: Filter by alien ID
+      responses:
+        200:
+          description: List of aliens
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Alien'
+        404:
+          description: Series not found
+        500:
+          description: Server error
