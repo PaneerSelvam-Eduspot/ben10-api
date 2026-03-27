@@ -7,8 +7,7 @@ const router = express.Router({ mergeParams: true });
 router.get('/:series', getAliens);
 
 router.post('/:series',[
-    body('name').notEmpty().trim(),
-    body('species').notEmpty().trim(),
+    
 ], createAliens); 
 
 export default router;
