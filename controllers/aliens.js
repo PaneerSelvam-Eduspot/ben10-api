@@ -1,14 +1,39 @@
 import Alien from '../models/Alien.js';
 
-let ben10aliens = [];
+const seriesMap = {
+    "classic": "Ben 10 Classic",
+    "alien-force": "Ben 10 Alien Force",
+    "ultimate-alien": "Ben 10 Ultimate Alien"
+}
 
 export const getAliens = async(req, res) => {
-  try{
-    ben10aliens = await Alien.find();
-    res.status(200).json(ben10aliens);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
+    try { 
+      const seriesParam = req.params.series;      
+      const seriesName = seriesMap[seriesParam];
+
+      if (!seriesName){
+        return res.status(404).json({ message: "Series not found" });
+      }
+
+      const { name, id } = req.query; 
+      let mongoQuery = { series: seriesName};
+
+      if (name) mongoQuery.name = new RegExp(name, 'i');
+      if (id) mongoQuery.id = id;
+
+      const aliens = await Alien.find(mongoQuery);
+
+      const baseUrl = `${req.protocol}://${req.get('host')}`;
+      const aliensWithUrls = aliens.map(alien => ({
+        ...alien._doc,
+        image: `${baseUrl}/public/aliens/image/${alien.image}`,
+        transform: `${baseUrl}/public/aliens/transformimg/${alien.transform}`
+      }));
+
+      res.status(200).json(aliensWithUrls);
+    } catch (error) {
+      res.status(500).json({ message: error.message });
+    }
 }
 
 export const createAliens = async (req, res) => {
@@ -27,37 +52,10 @@ export const createAliens = async (req, res) => {
 export const getAlien = async (req,res) => {
 
   try{
-    const alien = await Alien.findById(req.params.id);
+    const alien = await Alien.findOne({ id: req.params.id });
     if(!alien) return res.status(404).json({ message: 'Alien not found'});
     res.status(200).json(alien);
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
-};
-
-
-export const deleteAlien = async (req, res) => {
-   
-  const { id } = req.params;
-
-  try{
-    const deleteAlien = await Alien.findByIdAndDelete(id);
-
-    if (!deleteAlien) return res.status(404).json({message:'Alien not found'});
-    
-    res.status(200).json({message:'Alien deleted successfully'}); 
-  } catch(error) {
-    res.status(400).json({ message: error.message });
-  }
-};
-
-
-export const updateAlien = async (req, res) => {
-    try{
-      const updateAlien = await Alien.findByIdAndUpdate(req.params.id, req.body, { new:true });
-      if(!updateAlien) return res.status(404).json({message: 'Alien not found'});
-      res.status(200).json(updateAlien);
-    } catch (error) {
-      res.status(400).json({ message: error.message });
-    }
 };

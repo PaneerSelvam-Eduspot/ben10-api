@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import fs from 'fs';
-import connectDB from "./config/db.js";
-import Alien from "./models/Alien.js";
+import connectDB from "../config/db.js";
+import Alien from "../models/Alien.js";
 import path from "path";
 
 
@@ -19,9 +19,9 @@ const loadAliens = (fileName) => {
 };
 
 
-const classicAliens = loadAliens("./classic.json");
-const alienForceAliens = loadAliens("./alien-force.json");
-const ultimateAliens = loadAliens("./ultimate-alien.json");
+const classicAliens = loadAliens("./data/classic.json");
+const alienForceAliens = loadAliens("./data/alien-force.json");
+const ultimateAliens = loadAliens("./data/ultimate-alien.json");
 
 
 try {
