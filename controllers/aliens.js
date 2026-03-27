@@ -66,7 +66,7 @@ export const getAlien = async (req,res) => {
       
       res.status(200).json({
         ...alien._doc,
-        image: `/public/aliens/image/${alien.imagee}`,
+        image: `/public/aliens/image/${alien.image}`,
         transform: `/public/aliens/transformimg/${alien.transform}`
       });
     } catch (error) {
