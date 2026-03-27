@@ -50,12 +50,28 @@ export const createAliens = async (req, res) => {
 
 
 export const getAlien = async (req,res) => {
+    try {
+      const seriesParam = req.params.series;
+      const seriesName = seriesMap[seriesParam];
 
-  try{
-    const alien = await Alien.findOne({ id: req.params.id });
-    if(!alien) return res.status(404).json({ message: 'Alien not found'});
-    res.status(200).json(alien);
-  } catch (error) {
-    res.status(400).json({ message: error.message });
-  }
+      if (!seriesName) {
+        return res.status(404).json({ message: "Series not found" });
+      }
+
+      const alien = await Alien.findOne({ 
+        id: req.params.id, 
+        series: seriesName 
+      });
+
+      if (!alien) return res.status(404).json({ message: 'Alien not found'});
+      
+      const baseUrl = `${req.protocol}://${req.get('host')}`;
+      res.status(200).json({
+        ...alien._doc,
+        image: `${baseUrl}/public/aliens/image/${alien.image}`,
+        transform: `${baseUrl}/public/aliens/transformimg/${alien.transform}`
+      });
+    } catch (error) {
+      res.status(500).json({ message: error.message });
+    }
 };
