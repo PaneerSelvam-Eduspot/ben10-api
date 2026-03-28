@@ -23,7 +23,7 @@ export const getAliens = async(req, res) => {
 
       const aliens = await Alien.find(mongoQuery);
       
-      const baseUrl = process.env.API_BASE_URL || 'http://localhost:5000' ;
+      const baseUrl = process.env.API_BASE_URL;
       const aliensWithUrls = aliens.map(alien => ({
         ...alien._doc,
         image: `${baseUrl}/public/aliens/image/${alien.image}`,
@@ -65,7 +65,7 @@ export const getAlien = async (req,res) => {
 
       if (!alien) return res.status(404).json({ message: 'Alien not found'});
 
-      const baseUrl = process.env.API_BASE_URL || 'http://localhost:5000' ;
+      const baseUrl = process.env.API_BASE_URL ;
       res.status(200).json({
         ...alien._doc,
         image: `${baseUrl}/public/aliens/image/${alien.image}`,
