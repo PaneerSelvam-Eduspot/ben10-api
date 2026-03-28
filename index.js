@@ -11,7 +11,7 @@ import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
 
 const app = express();
-const PORT = process.env.PORT || 5000; 
+const PORT = process.env.PORT; 
 const __dirname = path.resolve();
 
 app.use(cors({
