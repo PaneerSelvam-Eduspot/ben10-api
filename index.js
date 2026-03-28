@@ -35,7 +35,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/public', express.static(path.join(__dirname, 'public')));
+app.use('/aliens/image', express.static(path.join(__dirname, 'public/aliens/image')));
 
 app.get('/', (req, res) => { 
   res.send('Welcome to the Ben 10 Aliens API!');
