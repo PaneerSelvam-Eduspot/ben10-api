@@ -20,7 +20,9 @@ app.use(cors({
   allowedHeaders: ['Content-Type']
 }));
 
-app.use(helmet());
+app.use(helmet({
+  crossOriginResourcePolicy: { policy: "cross-origin" }
+}));
 
 app.use(rateLimit({
   windowMs: 15 * 60 * 1000,
@@ -35,7 +37,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/aliens/image', express.static(path.join(__dirname, 'public/aliens/image')));
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => { 
   res.send('Welcome to the Ben 10 Aliens API!');
