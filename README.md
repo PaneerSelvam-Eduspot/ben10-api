@@ -93,3 +93,9 @@ npm start
 
 API will be live at `http://localhost:5000`
 Swagger docs at `http://localhost:5000/api/v1/docs`
+
+## Found something to fix?
+Since I am a developer who is always learning, I might have missed something! If you find a bug or have a suggestion on how I can make the Promise logic better, please feel free to open an Issue or send a Pull Request. I would love to learn from your feedback!
+
+## Like this project?
+If you are feeling generous, [Buy me a Coffee!](https://ko-fi.com/paneerselvam)
