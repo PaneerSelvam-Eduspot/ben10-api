@@ -6,7 +6,7 @@ info:
 
 servers:
   - url: http://localhost:5000
-  - url: https://ben10-aliens-api.onrender.com
+  - url: https://ben10-api-u7dc.onrender.com
 
 components:
   schemas:
